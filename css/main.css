@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+
+:root
+{
+   --main-color:#191919;
+   --button-color:#d87d4a;
+   --div-color:#ebebeb;
+   --navlink-color:#d86a3d;
+}
+body
+{
+    font-family: 'Manrope', sans-serif;
+    
+}
+html 
+{
+    scroll-behavior: smooth;
+}
+
+/*Start NavBar*/
+.navbar
+{
+    background-color: var(--main-color) ;
+}
+.navbar ul li 
+{
+    padding: 0 13px;
+}
+.navbar ul li a
+{
+    color: white !important;
+   
+}
+.navbar .cart .bx
+{
+    font-size: 27px;
+}
+.navbar .navbar-nav  .nav-item .nav-link.active,
+.navbar .navbar-nav .nav-item  .nav-link:focus,
+.navbar .navbar-nav .nav-item  .nav-link:hover
+{
+   color:var(--navlink-color) !important;
+}
+/*END NavBar*/
+
+/*Start landing*/
+.landing
+{
+    background-color: var(--main-color);
+    margin-top: 4rem;
+    min-height: calc(100vh - 64.5px);;
+}
+.landing .textLan
+{
+    padding-top: 95px;
+}
+.landing button
+{
+    background-color: var(--button-color) !important;
+    color: white;
+    font-weight: 700;
+    padding: 11px;
+    width: 221px;
+}
+h4
+{
+    letter-spacing: 10px;
+}
+h1
+{
+   font-size: 54px;
+   font-weight: bold;
+}
+.landing img
+{
+    padding-top: -140px;
+  
+}
+
+/*End landing*/
+
+
+/*Start Product*/
+.product
+{
+    margin-top: 8rem;
+}
+.product .card_one
+{
+    width: 300px;
+    height: 184px;
+    background-color: var(--div-color);
+    border-radius: 10px;
+    position: relative;
+}
+.product .card_one img
+{
+    position: absolute;
+    top: 27px;
+    left: 49%;
+    width: 10.5rem;
+    transform: translate(-50%,-50%);
+}
+.product .card_one .special
+{
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    width: 13.5rem;
+    transform: translate(-50%,-50%);
+}
+.product .card_one h5
+{
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.product .card_one button
+{
+    position: absolute;
+    top: 149px;
+    left: 53%;
+    transform: translate(-50%, -50%);
+   
+}
+.product .card_one button .bx
+{
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+}
+
+.product .card_one button:hover
+{
+    background-color:rgb(221, 220, 220);
+    color: var(--navlink-color);
+}
+
+.product .card_tow
+{
+    margin-top:  74px;
+    margin-bottom:  88px;
+}
+
+/*END Product*/
+
+/*Start mypicproduct*/
+.my_picProd
+{
+    overflow: hidden; 
+    background: url("../img/pattern-circles.svg") #d87d4a no-repeat; 
+    border-radius: 10px;
+    background-size: cover; 
+    background-position: -15rem -10rem;
+    margin: 0 34px;
+    margin-top: 105px;
+    margin-left: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ 
+   
+}
+.my_picProd img
+{
+    width: 414px;
+    position: relative;
+    top: 1px;
+}
+.mytext
+{
+    padding-top: 58px;
+}
+/*End mypicproduct*/
+
+/*Start mypicproduct 2*/
+.my_pucProd2
+{
+    overflow: hidden; 
+    background-image: url("../img/imges11.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    border-radius: 10px;
+    background-size: cover; 
+    margin: 0 96px;
+    margin-top: 10rem;
+    transition: 0.3s ease-in-out;
+    
+}
+
+.my_pucProd2 button:hover
+{
+    background-color: var(--main-color);
+    color: white;
+    font-weight: 400;
+}
+/*End mypicproduct 2*/
+
+
+/*Start mypicproduct 3*/
+.my_textEarphone
+{
+    background-color: var(--div-color);
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    
+}
+.my_textEarphone .texxt
+{
+    padding: 108px 62px;
+}
+.my_textEarphone .texxt button:hover
+{
+     background-color: var(--main-color);
+     color: white;
+}
+.myAirphone img
+{
+    border-radius: 10px;
+    
+}
+/*End mypicproduct 3*/
+
+/*Start Audio About*/
+.audio_About
+{
+    margin-top: 5rem;
+}
+.audio_About .audio_text 
+{
+    padding-top: 128px;
+}
+.audio_About .audio_text span
+{
+   color: var(--button-color)
+}
+.audio_About .some_one img
+{
+    border-radius: 10px;
+}
+/*End Audio About*/
+
+
+
+/*Start Footer*/
+.footer
+{
+    background-color: var(--main-color);
+    margin-top: 8rem;
+    border-top: 15px solid var(--button-color);
+}
+.footer .bx-fingerprint
+{
+    font-size: 75px;
+    color: white;
+}
+.footer span
+{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+.footer .bxl-facebook-circle ,
+.footer .bxl-twitter,
+.footer .bxl-linkedin-square,
+.footer .bxl-youtube
+{
+    font-size: 30px; 
+}
+/*End Footer*/
+
+/*Start Scroll up*/
+/* #upp
+{
+    clip-path: circle(40%);
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+    position: fixed;
+    bottom: 10px;
+    right: 45px;
+    display: none;
+    cursor: pointer;
+
+
+}
+ .footer #upp .bx
+{
+    color: white;
+    font-size: 25px;
+} */
+/*End Footer*/
+    
